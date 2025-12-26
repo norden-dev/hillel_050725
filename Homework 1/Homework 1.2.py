@@ -4,8 +4,8 @@ class Rectangle:
 
     def __init__( self, width: float, height: float) -> None:
         """
-        :param width: Rectangle width (positive number)
-        :param height: Rectangle height (positive number)"""
+        :param width: Rectangle width
+        :param height: Rectangle height """
         self.width = width
         self.height = height
 
