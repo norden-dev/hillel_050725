@@ -1,4 +1,5 @@
 class Rectangle:
+    """A class representing a rectangle."""
 
 
     def __init__( self, width: float, height: float) -> None:
