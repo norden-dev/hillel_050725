@@ -9,17 +9,21 @@ class Rectangle:
         self.width = width
         self.height = height
 
+
     def area(self)-> float:
         """Calculates the area of a rectangle."""
         return self.width * self.height
+
 
     def perimetr(self)-> float:
         """Calculates perimetr of a rectangle"""
         return 2* (self.width + self.height)
 
+
     def is_square(self)->bool:
         """Checking for square or not"""
         return True if self.width == self.height else False
+
 
     def resize(self, new_width, new_height) -> None:
         """Resize width and height"""
