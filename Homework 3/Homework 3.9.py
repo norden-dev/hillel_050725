@@ -30,8 +30,8 @@ class ProductWithProperty:
     """
 
     def __init__(self, name: str, price: float):
-        self.name: str = name
-        self.price: float = price
+        self.name = name
+        self.price = price
 
     @property
     def price(self) -> float:
@@ -57,7 +57,7 @@ class Descriptor:
     """
 
     def __set_name__(self, owner, name: str) -> None:
-        self.name: str = "_" + name
+        self.name = "_" + name
 
     def __get__(self, instance, owner) -> float:
         """
